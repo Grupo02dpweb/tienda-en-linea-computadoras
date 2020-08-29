@@ -1,0 +1,134 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+header{
+	background:#343030;color:white;font-family:verdana;padding-left:20px;padding:20px;
+}
+
+nav{
+	background: rgba(0, 0, 0,0.8);color:white;font-family:verdana;height:7vh;padding-left:20px;padding:20px;
+    margin: auto;
+    font-size: 25px;
+}
+
+section{
+	background: rgba(255,245,238,0.2);
+	margin: auto;
+	color:white;font-family:verdana;width:100%;
+	padding: auto;
+	display: inline-block;
+	
+}
+
+footer
+{
+	background:rgb(0, 0, 0);
+	color:white;font-family:verdana;padding-left:20px;padding-top:20px;
+	width: 100%;
+	display: inline-block;
+}
+
+a
+{
+	text-decoration: none;
+	padding: 5px;
+	color: white;
+	background: rgba(255,245,238,0.1);
+	border-radius: 5px;
+}
+
+a:hover
+{
+   font-size: 12;
+   background: rgba(255, 0, 0,0.3);
+}
+
+img
+{
+	background: white;
+
+}
+body
+{
+	background:url("../Imagenes/fondo.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-size: cover;
+}
+
+article
+{
+	background: rgba(0,0,0,0.4);
+	border-style: none;
+	border-width: 5px;
+	border-color: white;
+	width: 90%;
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 1%;
+}
+#Primer_titulo /*id*/
+{
+	background: rgba(0,0,0,0.3);
+	min-width: 25%;
+	max-width: 90%;
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 1%;
+	text-align: center;
+}
+
+.segundo_titulo /*clase*/
+{
+	background: rgba(0,0,0,0.3);
+	min-width: 25%;
+	max-width: 50%;
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 1%;
+	text-align: left;
+}
+
+#alfabeto
+{
+  list-style:none;
+  text-decoration: none;
+  text-transform:capitalize;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+#portada
+{
+	color: rgb(0, 0, 0);
+	text-align: justify;
+	background: rgb(248, 248, 255);
+	border-style: none;
+	border-width: 3px;
+	border-color: white;
+	width: 40%;
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 10;
+	margin-right: 10;
+	padding: 40px;
+	text-align: left;
+
+}
+
+.port,.row,.column
+{
+	border: 1px solid black;
+	border-collapse: collapse;
+	padding: 4px;
+	text-align: center;
+	margin: all;
+}
+

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Servidores Web</title>
+<meta charset="utf-8">
+
+<link rel="stylesheet" type="text/css" href="CSS/estilos.css">
+</head>
+<body>
+   <header>
+		<img src="Imagenes/logo.png">
+   </header>
+   
+   <nav>
+   <a href="index.html">Inicio</a>
+   <a href="Historia.html">Historia</a>
+   <a href="plataforma.html">Plataforma Web</a>
+   <a href="Maquetacion.html">Maquetación Web</a>
+   <a href="ServidoresWeb.html">Servidores Web</a>
+   <a href="Internet de las cosas.html">Internet de las cosas</a>
+   <a href="glosario.html">Glosario</a>
+   <a href="portada.html">Portada</a>
+   </nav>
+   
+   <section>
+   	<div id="Primer_titulo">
+   		<h1>Servidores Web</h1>
+   	</div>
+		<article>
+		<div class="segundo_titulo">
+			<h3>¿Qué es un servidor Web? </h3>
+		</div>
+		<p>Un servidor web es un programa que está diseñado para transferir hipertextos, páginas web
+		o páginas HTML (HyperText Markup Language): textos complejos con enlaces, figuras,
+		formularios, botones y objetos incrustados como animaciones o reproductores de música. El
+		programa implementa el protocolo HTTP (HyperText Transfer Protocol) que pertenece a la
+		capa de aplicación del modelo OSI. El término también se emplea para referirse al ordenador
+		que ejecuta el programa.</p>
+		<br>
+		<h3>Funcionamiento</h3>
+		<br>
+		<p>El Servidor web se ejecuta en un ordenador manteniéndose a la espera de peticiones por
+		parte de un cliente (un navegador web) y que responde a estas peticiones adecuadamente,
+		mediante una página web que se exhibirá en el navegador o mostrando el respectivo mensaje
+		si se detectó algún error. A modo de ejemplo, al teclear www.wikipedia.org en nuestro
+		navegador, éste realiza una petición HTTP al servidor de dicha dirección. El servidor responde
+		al cliente enviando el código HTML de la página; el cliente, una vez recibido el código, lo
+		interpreta y lo exhibe en pantalla. Como vemos con este ejemplo, el cliente es el encargado de
+		interpretar el código HTML, es decir, de mostrar las fuentes, los colores y la disposición de los
+		textos y objetos de la página; el servidor tan sólo se limita a transferir el código de la página
+		sin llevar a cabo ninguna interpretación de la misma.
+		Además de la transferencia de código HTML, los Servidores web pueden entregar
+		aplicaciones web. Éstas son porciones de código que se ejecutan cuando se realizan ciertas
+		peticiones o respuestas HTTP.</p>
+		<br>
+		<h4>Hay que distinguir entre:</h4>
+		<h4>Aplicaciones en el lado del cliente</h4> 
+		<p>El cliente web es el encargado de ejecutarlas en la
+		máquina del usuario. Son las aplicaciones tipo Java "applets" o Javascript: el servidor
+		proporciona el código de las aplicaciones al cliente y éste, mediante el navegador, las ejecuta.
+		Es necesario, por tanto, que el cliente disponga de un navegador con capacidad para ejecutar
+		aplicaciones (también llamadas scripts). Comúnmente, los navegadores permiten ejecutar
+		aplicaciones escritas en lenguaje javascript y java, aunque pueden añadirse más lenguajes
+		mediante el uso de plugins.</p>
+		<br>
+		<h4>Aplicaciones en el lado del servidor</h4>
+		<p>El servidor web ejecuta la aplicación; ésta, una vez
+		ejecutada, genera cierto código HTML; el servidor toma este código recién creado y lo envía al
+		cliente por medio del protocolo HTTP.
+		Las aplicaciones de servidor muchas veces suelen ser la mejor opción para realizar
+		aplicaciones web. La razón es que, al ejecutarse ésta en el servidor y no en la máquina del
+		cliente, éste no necesita ninguna capacidad añadida, como sí ocurre en el caso de querer
+		ejecutar aplicaciones javascript o java. Así pues, cualquier cliente dotado de un navegador
+		web básico puede utilizar este tipo de aplicaciones.</p>
+
+		<br>
+		<br>
+		<p>El hecho de que HTTP y HTML estén íntimamente ligados no debe dar lugar a confundir
+		ambos términos. HTML es un lenguaje de marcas y HTTP es un protocolo.</p>
+		<br>
+		<center>
+			<img src="../Proyecto/Imagenes/SWeb.png" width="500" height="254">
+		</center>
+		</article> 
+
+		<article>
+		<div class="segundo_titulo">
+			<h3>Para qué sirve un servidor Web</h3>
+		</div>
+		<p>La principal tarea que tiene un servidor web es la de despachar el contenido de un sitio web al usuario. Esto se logra mediante un proceso que a nuestros ojos no toma más que un segundo, pero a nivel del server es una secuencia más sofisticada de lo que parece.</p>
+		<br>
+		<p>Para que el servidor web pueda cumplir con su rol, tendrá primero que nada que recibir una petición de parte de un navegador, y a continuación buscar en los archivos del servidor la información que le está siendo solicitada.</p>
+		<br>
+		<p>Una vez que los archivos del sitio son localizados, el servidor web procede a interpretar las líneas de código y a enviar el resultado de regreso al navegador, el cual lo mostrará para nosotros.</p>
+		<br>
+		<p>Cuando este proceso se completa podemos decir que el web server ha cumplido con su tarea de servirnos el sitio web en cuestión para que nosotros podamos utilizarlo.</p><br>
+		<br>
+		<h3>Servidores web más utilizados</h3>
+		<br>
+		<p>Entre los servidores web más utilizados del mundo podemos encontrar algunos como Apache, Nginx, LiteSpeed & IIS. Los primeros tres son predominantes en sistemas Linux, mientras que IIS está orientado para entornos Windows.</p>
+		<br>
+		<p>Hoy en día la mayor cuota de mercado la posee IIS de Microsoft, con cerca de 688 millones de sitios según los datos del más reciente análisis de Netcraft. Le siguen Nginx con 358 millones de sitios y Apache con 313 millones.</p>
+		<br>
+		<p>LiteSpeed no está entre los más utilizados en este sentido, pero sin dudas merece una mención especial.</p>
+		<br>
+		<br>
+		<h4>Aplicaciones populares que corren en servidores web</h4>
+		<br>
+		<p>Un servidor web puede interpretar el lenguaje de programación de un sitio para poder despachar el contenido al navegador que le envía la solicitud. En otras palabras, los servidores web se caracterizan por ser compatibles con múltiples lenguajes de programación, entre los que podemos encontrar por ejemplo a PHP, ASP, Perl, Python, Ruby, Go y NodeJS.</p>
+		<br>
+
+		<p><b>PHP:</b> ha sido durante un largo tiempo (y por supuesto sigue siendo) el lenguaje de programación web más utilizado a nivel mundial, y no existe otro que tenga una cuota ni por asomo cercana. Su facilidad de aprendizaje y potencial lo han llevado al puesto número del ranking de los más utilizados, y parece que seguirá allí durante un largo tiempo más.</p>
+
+		<p><b>ASP.NET:</b> es una de las tecnologías más utilizadas en servidores Windows, y está orientado a la creación de contenido del tipo dinámico, web apps y XML. Suele ir de la mano con el servidor web de Microsoft, IIS, aunque actualmente está disponible también para entornos Linux, sin embargo su uso allí no es elevado.</p>
+
+		<p><b>Perl:</b> es un lenguaje complejo pero a su vez muy poderoso, y si sabemos usarlo es posible aplicarlo a tareas áreas muy diversas, como por ejemplo programación de redes, bioinformática y finanzas.</p>
+
+		<p><b>Python:</b> se trata de un lenguaje multiplataforma ampliamente usado, de código abierto y orientado principalmente al contenido dinámico. Es común utilizarlo cuando se requiere de programación orientada a objetos y también tiene soporte para programación imperativa.</p>
+
+		<p><b>Ruby:</b> otro lenguaje de contenido dinámico, Ruby nace con fuertes inspiraciones de Perl y Python, resultando ser un lenguaje orientado a objetos y reflexivo. Cuando es utilizado en desarrollo web, se suele hacer junto al framework Ruby on Rails. Una característica particular es que, dependiendo de cómo lo utilicemos, puede que no sea necesario que vaya de la mano de un servidor HTTP, como sí es el caso de PHP por ejemplo.</p>
+
+		<p><b>Go:</b> creado por Google e inspirado en otros como Python y C, Go es un poderoso lenguaje multiplataforma, pero que a su vez resulta ser sencillo y liviano, con una declaración de variables también muy simple.</p>
+
+		<p><b>NodeJS:</b> es un entorno que ha dado de qué hablar en los últimos años dado su gran potencial. Se utiliza principalmente en la ejecución de código JavaScript, es asíncrono y está orientado a eventos.</p><br>
+		
+		<center>
+			<img src="../Proyecto/Imagenes/SW.png">
+		</center>
+
+
+
+		</article>
+
+
+   </section>
+   <footer>
+   	<p align="center">
+   		COPYRIGHT © 2020. Todos los derechos reservados por Computers Store<br>Desarrollado por <a  href="portada.html">Grupo #2</a><br>
+   	</p>
+   
+   </footer>
+   
+</body>
+</html>
